@@ -10,5 +10,18 @@
     <meta http-equiv="refresh" content="2">
 </head>
 <body>
+
+    <button onclick="doSomething()" style="border-radius: 10px;">click me</button>
+    
+    <p id="test">
+        Hello
+    </p>
+
+    <script>
+        function doSomething(){
+            document.getElementById('test').innerHTML = "Good bye"
+        }
+    </script>
+
 </body>
 </html>
