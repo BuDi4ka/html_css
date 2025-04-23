@@ -1,0 +1,11 @@
+div {
+    background-color: aqua;
+    width: 400px;
+    height: 200px;
+}
+.box-1 {
+    background-color: greenyellow;
+}
+.text-1 {
+    font-size: 60px;
+}
